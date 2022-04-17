@@ -1,0 +1,138 @@
+:root {
+    --primary-color: #30362F;
+    --secundary-color:#625834;
+    --ternary-color: #fffbdb;
+    --quaternary-color: rgb(148, 8, 8);
+}
+
+li {
+    list-style: none;
+    color: var(--ternary-color);
+    display: inline-flex;
+    padding: 0.5rem;
+}
+
+li a{
+    color: var(--ternary-color);
+}
+
+span:hover{
+    background-color: var(--ternary-color);
+    color: var(--secundary-color);
+    border-radius: 5px;
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    letter-spacing:1em;
+    margin: 2em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* types styles */
+
+#typer {
+    width: 50%;
+    color: var(--secundary-color);
+    padding: 1.5em;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: lighter;
+    justify-self: center;
+    margin: 2rem auto 2rem auto;
+    line-height: 1.5;
+}
+
+#typer span {
+    margin-left: 1px;
+}
+
+body {
+    background-color: var(--ternary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wps {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 70px;
+    height: 70px;
+    padding: 5px;
+    margin: 2rem 0 2rem 0;
+}
+
+#buttons {
+    display: flex;
+}
+
+#restart {
+    color: var(--secundary-color);
+    font-size: large;
+    display: inline-flex; 
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.5em;
+    border-radius: 50%;
+}
+
+#restart:hover {
+    background-color: var(--ternary-color);
+}
+
+#conf {
+    color: var(--primary-color);
+    display: inline-flex;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+#conf:hover {
+    background-color: var(--ternary-color);
+}
+
+#menu {
+    position: absolute;
+    top: 10px;
+}
+
+#phrase-len {
+    width: 50px;
+    background-color: var(--ternary-color);
+    border-radius: 5px;
+    border: none;
+    color: var(--secundary-color);
+    text-align: center;
+    padding: 0.3em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+#phrase-len::selection {
+    border:none;
+}
+
+#toggle-box{
+    color: var(--ternary-color);
+    background-color: var(--primary-color);
+    padding: 1em;
+    border-radius: 5px;
+}
+
+#toggle-box p {
+    display: inline-flex;
+    padding-right: 1em;
+    color:var(--ternary-color); 
+    letter-spacing: 0.1em;
+}
+
+/* faller styles */
+
+#faller-canvas {
+    background-color: var(--primary-color);
+    box-shadow: 1px 1px 5px lightgray;
+    width: 80%;
+    height: auto;
+    justify-self: center;
+    border-radius: 15px;
+}
